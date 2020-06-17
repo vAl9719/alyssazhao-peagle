@@ -1,0 +1,303 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+.logo{
+  height: 114px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+
+  color: #ffffff;
+}
+
+.page-title{
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  left: 755px;
+  top: 139px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  background:rgba(121, 141, 228, 0.66);
+  border-radius: 15px;
+  color:white;
+}
+
+.daml {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 2px;
+  top: 45px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.ant-menu-item .anticon, .ant-menu-submenu-title .anticon{
+  font-size: 18px;
+  vertical-align: 0.5px;
+}
+
+.ant-layout{
+  background: rgba(255, 255, 255, 0);
+}
+
+.ant-layout-sider {
+  position: absolute;
+}
+
+.site-layout-background {
+  width: 317px;
+  height: 937px;
+  left: 0px;
+  top: 87px;
+  padding: 0px;
+  
+  background: #4C5B69;
+}
+
+.ant-menu-submenu-title:hover {
+  color: white!important;
+}
+
+.option{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  border: 0.5px solid #C1C1C1;
+  color: #FFFFFF;
+  background: #4C5B69;
+}
+
+.ant-menu.ant-menu-light .ant-menu-submenu-open.option{
+  background:#637585;
+}
+
+
+.menu-layout-background{
+  width: 317px;
+  height: 937px;
+  left: 0px;
+  top: 87px;
+  
+  background: #4C5B69;
+}
+
+
+
+
+.menu-item{
+  width: 317px;
+  left: 0px;
+  height: 65px;
+  background: #4C5B69;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  border: 0.5px solid #C1C1C1;
+  color: white;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+
+.link-item{
+  color:white;
+}
+
+.link-item:hover {
+  background-color: #8c9bd1;
+  color: white;
+}
+
+.ant-menu.ant-menu-light .ant-menu-item-selected.menu-item{
+  background-color: #798DE4;
+}
+
+
+
+.ant-menu-inline .ant-menu-selected::after, .ant-menu-inline .ant-menu-item-selected::after {
+  opacity: 0;
+}
+
+
+
+.menu-item:hover {
+  background-color: #8c9bd1;
+  color: white;
+}
+
+.ant-menu-item-selected.menu-item:first-child{
+  border: none;
+}
+
+
+
+
+.main-menu{
+  background: #4C5B69;
+  color: white;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  
+}
+.ant-menu-submenu-title .ant-menu-submenu-arrow{
+    background: white;
+}
+
+.ant-menu-item.menu-item{
+  height: 105px;
+}
+
+.ant-menu.ant-menu-light .ant-menu-submenu-open.main-menu{
+  background:#566878;
+}
+
+.ant-menu.ant-menu-light .ant-menu-submenu:hover {
+  color: white;
+}
+
+
+.ant-menu-submenu-arrow::before, .ant-menu-submenu-arrow::after {
+  background: white!important;
+
+}
+
+
+
+.ant-menu.ant-menu.ant-menu-light .ant-menu-submenu.main-menu:hover{
+  color: white!important;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    
+    background: #798DE4;
+}
+
+.title {
+  position: absolute;
+  width: 91px;
+  height: 35px;
+  left: 79px;
+  top: 28px;
+  
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+.user{
+  position: absolute;
+  height: 35px;
+  left: 1106px;
+  top: 27px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+color: #FFFFFF;
+}
+
+.usericon{
+  background-color: #FFFFFF;
+}
+
+.submenu-data{
+  position: absolute;
+  width: 316px;
+  height: 45px;
+  left: 0px;
+  align-items: center;
+  color:white;
+  background: #7A8EA0;
+  border: 0.5px solid #C1C1C1;
+}
+
+.ant-menu.ant-menu-light .ant-menu-item-selected.submenu-data{
+  background: #7083CB;
+}
+
+.submenu-data:hover{
+  background: #8c9bd1;
+  color:white;
+}
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-inline .ant-menu-item:not(:last-child){
+  margin-bottom: 0px;
+}
+
+.ant-menu-inline .ant-menu-submenu-title {
+  background: #4C5B69;
+  color: white;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+}
+
